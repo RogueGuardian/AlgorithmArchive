@@ -25,5 +25,7 @@ This list will never be complete, whether it be a new language or another algori
 - Basic Numerical Algorithms
     - GCD (Euclid's GCD)
 - Sorting
+    - Note :: Sorts are inplace unless otherwise specified
+    - Insertion Sort
 - Trees
 - Stack, Queue, Heap
