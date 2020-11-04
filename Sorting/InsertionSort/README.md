@@ -10,6 +10,8 @@ Array/List A of sorted items
 
 ## Pseudocode
 ```
+signature: insertionSort(A)
+
 i := 0
 while i < length(A)
     j := i

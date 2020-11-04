@@ -14,6 +14,15 @@ This list will never be complete, whether it be a new language or another algori
 - Each algorithm will have a function on the algorithm, but no driver code
     - If a driver code is needed (I.E. specific implementation details) then it will be noted and provided
 
+## Contribution
+
+- README
+    - Must have be organized with Name, Setup, Input, Output, and Pseudocode
+    - Name is Level 1
+    - Setup is Level 2, Input and Output are under Setup
+    - Pseudocode is Level 2, If there is a recursive pseudocde, there must also be non-recursive pseudocode unless specified for true simplicity
+    - Pseudocode must contain `signature: function(a, b, c, ...)`
+
 ## Organization
 
 - Algorithm Type / Data Structure Type
@@ -27,5 +36,8 @@ This list will never be complete, whether it be a new language or another algori
 - Sorting
     - Note :: Sorts are inplace unless otherwise specified
     - Insertion Sort
+    - Bubble Sort
 - Trees
 - Stack, Queue, Heap
+- Matrix Functions
+    - Determinant (And Major)

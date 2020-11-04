@@ -12,6 +12,8 @@ Greatest common divisor of both a and b
 
 ### Non Recursive
 ```
+signature: gcd(a, b)
+
 while a != b
     if a < b then
         a := a - b
@@ -23,11 +25,11 @@ done
 
 ### Recursive
 ```
-gcd(a, b) do
-    if b == 0 then
-        return a
-    endif
+signature: gcd(a, b)
 
-    return gcd(b, b mod a)
-endfunc
+if b == 0 then
+    return a
+endif
+
+return gcd(b, b mod a)
 ```
