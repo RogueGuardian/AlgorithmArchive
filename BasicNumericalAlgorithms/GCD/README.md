@@ -3,9 +3,7 @@
 ## Setup
 
 ### Input
-Whole Numbers
-- a
-- b
+Whole Numbers, a and b
 
 ### Out
 Greatest common divisor of both a and b
