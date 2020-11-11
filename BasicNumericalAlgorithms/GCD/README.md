@@ -21,6 +21,8 @@ while a != b
         b := b - a
     endif
 done
+
+return a
 ```
 
 ### Recursive
