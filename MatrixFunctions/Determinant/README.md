@@ -6,6 +6,10 @@
 ## Out
 Determinant value of the matrix
 
+## Requirements
+- Algorithms
+    - Major
+
 ## Pseduocode
 ### Determinant
 ```

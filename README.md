@@ -11,8 +11,13 @@ This list will never be complete, whether it be a new language or another algori
 - Even though there are many forms of each algorithm, only write the one best suited to that task
     - Recursive algorithms should have both recursive and non-recursive forms presented
     - Most algorithms just need to be runnable when scalable
-- Each algorithm will have a function on the algorithm, but no driver code
-    - If a driver code is needed (I.E. specific implementation details) then it will be noted and provided
+- Each algorithm will have a function on the algorithm
+    - Driver code is not necessary, but perhaps best to include it in most algorithms
+    - Code that requires a lot of setup (I.E. Trees or Graphs) doesn't need to worry about being compatable with the other code
+    - It just needs to show how it would work and then let any user be able to implement it themselves
+    - That being said, if there is a clear pattern being developed, try and follow it 
+- For Data Structures all algorithms that are "class" based should be implemented there
+    - No need for another folder for the "insert / remove" functions
 
 ## Contribution
 
@@ -23,7 +28,6 @@ This list will never be complete, whether it be a new language or another algori
     - Pseudocode is Level 2, If there is a recursive pseudocde, there must also be non-recursive pseudocode unless specified for true simplicity
     - Pseudocode must contain `signature: function(a, b, c, ...)`
 - Code
-    - No driver function / `main` function, just the algorithm
     - Name it the same as the file unless
         - It is another algorithm 
         - It is an additional piece of the algorithm
@@ -31,6 +35,13 @@ This list will never be complete, whether it be a new language or another algori
     - If you need a driver for the function itself, that is ok
         - E.G. quicksort(array) --> quicksort(array, 0, len(array))
     - If another function or algorithm is needed to make an algorithm work (E.G. Determinant and Major) then write the algorithm with both functions but make a note that another section for the "helper" function should also be made
+- Formatting
+    - Brackets should be K&R either original or 1TBS variant
+    - Indentation is a tab or 4 spaces conversion
+    - Spaces should be between all the operators possible but not the keywords and parenthesis
+        - Ex [Spaces] `a == b`, `k = c + m.Min()`, `a[2] = c % 7`
+        - Ex [No Spaces] `while(true)`, (Python example) `c = a**b`
+    - Anything beyond these should be noted and a consensus will be determined
 
 ## Organization
 
@@ -48,7 +59,11 @@ This list will never be complete, whether it be a new language or another algori
     - Bubble Sort
     - Insertion Sort
 - Trees
-- Stack, Queue, Heap
+    - Binary Search Tree
+- Stack, Heap, Queue
+    - Stack
+    - Heap
+    - Queue
 - Matrix Functions
     - Determinant
     - Major
