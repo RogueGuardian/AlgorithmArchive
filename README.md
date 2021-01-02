@@ -56,27 +56,34 @@ This list will never be complete, whether it be a new language or another algori
 
 ## Organization
 
-- Algorithm Type / Data Structure Type
-    - Algorithm / Data Structure
+- Algorithm Type 
+    - Algorithm 
         - Programming Language
+OR
+- Data Structure
+    - Programming Language
+        - Algorithm / Structure Functionality
 
 ## Table of Contents
 
-- Basic Programs
-    - Hello World 
-- Basic Numerical Algorithms
-    - Factorial
-    - GCD (Euclid's GCD)
-- Sorting
-    - Note :: Sorts are inplace unless otherwise specified
-    - Bubble Sort
-    - Insertion Sort
-- Trees
-    - Binary Search Tree
-- Stack, Heap, Queue
-    - Stack
-    - Heap
-    - Queue
-- Matrices 
-    - Determinant
-    - Major
+- Algorithms
+    - Basic Programs 
+        - Hello World 
+    - Basic Numerical Algorithms 
+        - Factorial
+        - GCD (Euclid's GCD)
+    - Sorting 
+        - Note :: Sorts are inplace unless otherwise specified
+        - Bubble Sort
+        - Insertion Sort
+- Data Structures
+    - Trees 
+        - Binary Search Tree
+    - Stack, Heap, Queue 
+        - Stack
+        - Heap
+        - Queue
+- TBD
+    - Matrices 
+        - Determinant
+        - Major
