@@ -59,6 +59,7 @@ This list will never be complete, whether it be a new language or another algori
 - Algorithm Type 
     - Algorithm 
         - Programming Language
+
 OR
 - Data Structure
     - Programming Language
