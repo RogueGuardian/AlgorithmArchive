@@ -1,4 +1,5 @@
 fn non_recursive_factorial(n: u64) -> u64 {
+    // Cannot have u64 < 0
     let mut sum: u64 = 1;
     while n != 0 {
         sum *= n;
@@ -8,7 +9,8 @@ fn non_recursive_factorial(n: u64) -> u64 {
 }
 
 fn recursive_factorial(n: u64) -> u64 {
-    if n == 1 {
+    // Cannot have u64 < 0
+    if n == 0 {
         return 1;
     }
     return n*recursive_factorial(n-1);

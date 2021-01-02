@@ -35,3 +35,6 @@ endif
 
 return gcd(b, b mod a)
 ```
+
+### Runtime
+- Worst Case: O(log(b)) where b is the smaller number

@@ -30,3 +30,7 @@ if n == 1 then
 endif
 return n * fact(n-1)
 ```
+
+## Runtime
+- Theta(N) where N is the value of the input
+- Theta(2^B) where B is the number of bits of the binary representation of N
