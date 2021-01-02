@@ -46,11 +46,12 @@ This list will never be complete, whether it be a new language or another algori
     - Anything beyond these should be noted and a consensus will be determined
 
 ## READMEs
-- Must have be organized with Name, Setup, Input, Output, and Pseudocode
+- Must have be organized with Name, Setup, Input, Output, Pseudocode, and Runtime
 - Name is Level 1
 - Setup is Level 2, Input and Output are under Setup
 - Pseudocode is Level 2, If there is a recursive pseudocde, there must also be non-recursive pseudocode unless specified for true simplicity
 - Pseudocode must contain `signature: function(a, b, c, ...)`
+- Runtime is Level 2
 - Worst, Avg, Best runtimes of algorithm (O, Theta, Omega) should also be listed when applicable
 
 ## Organization
@@ -76,6 +77,6 @@ This list will never be complete, whether it be a new language or another algori
     - Stack
     - Heap
     - Queue
-- Matrix Functions
+- Matrices 
     - Determinant
     - Major
