@@ -61,6 +61,8 @@ This list will never be complete, whether it be a new language or another algori
 
 ## Table of Contents
 
+- Basic Programs
+    - Hello World 
 - Basic Numerical Algorithms
     - Factorial
     - GCD (Euclid's GCD)
