@@ -1,5 +1,5 @@
 func insertionSort(A []int) {
-    i := 1
+    i := 0
     for i < len(A) {
         j := i
         for (j > 0) && (A[j-1] > A[j]) {
